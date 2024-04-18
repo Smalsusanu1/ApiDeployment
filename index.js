@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 // Define your MongoDB connection URL
-const mongoURL = process.env.MONGODB_URI || "mongodb://localhost:27017/your-database-name";
+const mongoURL = "mongodb+srv://vivekanand80516:vINGCgt3L28dPqkt@cluster0.wndzquq.mongodb.net/people";
 
 // Connect to MongoDB
 mongoose.connect(mongoURL, {
